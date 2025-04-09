@@ -1,2 +1,1 @@
-# Title
-
+![Fridge cat](/resources/fridge-cat.jpg)
