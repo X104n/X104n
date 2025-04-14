@@ -1,1 +1,1 @@
-![Fridge cat](/resources/fridge-cat.jpg)
+![Random Image](images/image1.png)
