@@ -1,1 +1,1 @@
-![Random Image](/images/image1.png)
+![Random Image](/images/image1.jpg)
