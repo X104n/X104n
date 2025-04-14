@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 import random
-import re
 
 def update_readme_with_random_image():
     # Print working directory and list files for debugging
@@ -27,28 +26,14 @@ def update_readme_with_random_image():
     random_image = random.choice(images)
     print(f"Selected random image: {random_image}")
     
-    # Read the current README
-    with open('README.md', 'r') as file:
-        content = file.read()
+    # Create new README with just the image
+    image_content = f'![Random Image](images/{random_image})'
     
-    # Replace the image or add if not exists
-    # Use a more flexible pattern that will match various image references
-    image_pattern = r'!\[.*?\]\(images/.*?\)'
-    image_replacement = f'![Random Image](images/{random_image})'
-    
-    if re.search(image_pattern, content):
-        new_content = re.sub(image_pattern, image_replacement, content)
-        print("Replaced existing image reference in README")
-    else:
-        # Add the image at the top if not found
-        new_content = f'{image_replacement}\n\n{content}'
-        print("Added new image reference to README")
-    
-    # Write updated content back to README
+    # Write to README.md
     with open('README.md', 'w') as file:
-        file.write(new_content)
+        file.write(image_content)
     
-    print(f"Successfully updated README with random image: {random_image}")
+    print(f"Successfully updated README with only the random image: {random_image}")
 
 if __name__ == "__main__":
     update_readme_with_random_image()
