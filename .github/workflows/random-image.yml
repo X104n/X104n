@@ -2,7 +2,7 @@ name: Random Profile Image
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Runs every minute for testing
+    - cron: '*/10 * * * *'  # Runs every 10 minutes for testing
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
