@@ -23,4 +23,4 @@ jobs:
         run: python scripts/update_readme.py
       
       - name: Commit and push if changed
-        run: script/github_actions.sh
+        run: scripts/github_actions.sh
