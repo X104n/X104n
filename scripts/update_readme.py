@@ -28,7 +28,7 @@ def update_readme_with_random_image():
         currentImage = readme[47:-1:]
     
     while True:
-        random_image = random.choice(images)
+        random_image = pick_random_image(images)
         print(f"Selected random image: {random_image}")
         if currentImage == random_image:
             continue
@@ -43,6 +43,14 @@ def update_readme_with_random_image():
         file.write(image_content)
     
     print(f"Successfully updated README with only the random image: {random_image}")
+
+def pick_random_image(images):
+    """Pick a random image from the list."""
+    return random.choice(images)
+
+
+
+
 
 if __name__ == "__main__":
     update_readme_with_random_image()

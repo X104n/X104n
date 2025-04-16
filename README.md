@@ -1,2 +1,2 @@
 ## New image every day!
-![Random Image](images/image7.png)
+![Random Image](images/image4.jpg)
