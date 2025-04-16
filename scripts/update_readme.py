@@ -23,8 +23,17 @@ def update_readme_with_random_image():
     print(f"Found {len(images)} images: {images}")
     
     # Pick a random image
-    random_image = random.choice(images)
-    print(f"Selected random image: {random_image}")
+    with open('README.md', 'r') as file:
+        readme = file.read()
+        currentImage = readme[47:-1:]
+    
+    while True:
+        random_image = random.choice(images)
+        print(f"Selected random image: {random_image}")
+        if currentImage == random_image:
+            continue
+        else:
+            break
     
     # Create new README with just the image
     image_content = f'## New image every day!\n![Random Image](images/{random_image})'
