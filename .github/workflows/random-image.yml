@@ -3,14 +3,13 @@ name: Random Profile Image
 on:
   schedule:
     - cron: '0 8 * * *' # Runs everyday at 08.00
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    # Add this permissions block
     permissions:
-      contents: write  # This gives permission to modify repository contents
+      contents: write
     
     steps:
       - uses: actions/checkout@v3
@@ -24,9 +23,4 @@ jobs:
         run: python scripts/update_readme.py
       
       - name: Commit and push if changed
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update random profile image"
-          git push
+        run: script/github_actions.sh
