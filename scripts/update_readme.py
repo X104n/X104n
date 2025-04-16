@@ -27,7 +27,7 @@ def update_readme_with_random_image():
     print(f"Selected random image: {random_image}")
     
     # Create new README with just the image
-    image_content = f'New Image evey day!\n![Random Image](images/{random_image})'
+    image_content = f'## New image every day!\n![Random Image](images/{random_image})'
     
     # Write to README.md
     with open('README.md', 'w') as file:
