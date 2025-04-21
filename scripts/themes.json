@@ -6,6 +6,11 @@
                     "Mega monkey monday": {
                         "image-folder": "/images/mega-monkey"
                     }
+                },
+                {
+                    "Trolly Thursday": {
+                        "image-folder": "/images/fridge-cat"
+                    }
                 }
             ]
         },

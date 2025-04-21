@@ -1,52 +1,46 @@
 #!/usr/bin/env python3
 import os
 import random
+import json
+import datetime
 
-def update_readme_with_random_image():
-    
-    images = get_images()
-    print(f"Found {len(images)} images: {images}")
+def get_day():
+    """Return the current day of the week."""
+    return datetime.datetime.now().strftime("%A").lower()
 
-    random_image = get_random_image(images)
-    image_content = f'''## New image every day!\n![Random Image](images/{random_image})'''
-    
-    with open('README.md', 'w') as file:
-        file.write(image_content)
-    
-    print(f"Successfully updated README with: {random_image}")
+def random_theme(day):
+    """Return a random theme based on the day of the week from the JSON file."""
+    themes = get_themes_from_day(day)
+    return random.choice(themes)
 
-def get_images():
-    
-    # Get all images from the images directory (case insensitive extension matching)
-    image_extensions = ['.png', '.jpg', '.jpeg', '.gif', '.JPG', '.JPEG', '.PNG', '.GIF']
-    images = []
-    
-    if os.path.exists('images'):
-        for f in os.listdir('images'):
-            if any(f.lower().endswith(ext.lower()) for ext in image_extensions):
-                images.append(f)
-    
-    if not images:
-        print("No images found in the images directory!")
-        return
-    
-    return images
+def get_themes_from_day(day):
+    with open('scripts/themes.json', 'r') as file:
+        all_days = json.load(file)
 
-def get_random_image(images):
-        # Pick a random image
-    with open('README.md', 'r') as file:
-        readme = file.read()
-        currentImage = readme[47:-1:]
-    
-    while True:
-        random_image = random.choice(images)
-        print(f"Selected random image: {random_image}")
-        if currentImage == random_image:
-            continue
-        else:
-            break
+    this_day = []
 
-    return random_image
+    for day_obj in all_days["days"]:
+        if day in day_obj:
+            this_day.extend(day_obj[day])
+    
+    print(this_day)
+    return this_day
+
+
+def picture_from_theme(theme):
+    return "a"
+
+def insert_picture(picture):
+    return "b"
 
 if __name__ == "__main__":
-    update_readme_with_random_image()
+    
+    day = get_day()
+
+    theme = random_theme(day)
+
+    print(f"Today's theme is: {theme}")
+
+    picture = picture_from_theme(theme)
+
+    insert_picture(picture)
