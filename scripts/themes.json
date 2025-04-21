@@ -21,8 +21,8 @@
         {
             "wednesday": [
                 {
-                    "Waiting Wednesday": {
-                        "image-folder": "/images/fridge-cat"
+                    "Wet cat Wednesday": {
+                        "image-folder": "/images/wet-cat"
                     }
                 }
             ]
@@ -30,8 +30,8 @@
         {
             "thursday": [
                 {
-                    "Trolly Thursday": {
-                        "image-folder": "/images/fridge-cat"
+                    "Tidal trouble Thursday": {
+                        "image-folder": "/images/tidal-trouble"
                     }
                 }
             ]
