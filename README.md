@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Trolly Thursday
-![regex](images/fridge-cat/image6.jpg)
+### Todays theme: Mega monkey monday
+![regex](images/mega-monkey/image1.jpg)
