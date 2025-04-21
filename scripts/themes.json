@@ -1,0 +1,11 @@
+{
+    "themes": {
+        "Fridge cat Friday" : {
+            "name": "Fridge cat Friday",
+            "day": "Friday",
+            "images" : [
+                "/images/fridge-cat/image1.jpg"
+            ]
+        }
+    }
+}
