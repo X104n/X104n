@@ -54,28 +54,28 @@ def picture_from_theme(theme):
     # Return a random image from the theme's folder
     return random.choice(images)
 
-def insert_picture(picture):
+def insert_picture(picture, theme):
     readme_path = 'README.md'
-    
-    
+
     with open(readme_path, 'r') as file:
         content = file.read()
+    
+    # Update image
     pattern = r'!\[regex\]\([^)]+\)'
-    
     picture_path = picture.replace('\\', '/')
-    
-    # Create the replacement - keeping the alt text "regex" but changing the image path
     replacement = f'![regex]({picture_path})'
-    
-    # Replace only the matched pattern
     updated_content = re.sub(pattern, replacement, content)
+
+    # Update theme text
+    theme_name = list(theme.keys())[0]
+    theme_pattern = r'Todays theme:.*'
+    print(f"Updating theme to: {theme_name}")
+    replacement = f'Todays theme: {theme_name}'
+    updated_content = re.sub(theme_pattern, replacement, updated_content)
     
-    # Write the updated content back to the README
     with open(readme_path, 'w') as file:
         file.write(updated_content)
     
-    print(f"README updated with new image: {picture_path}")
-    return True
 
 if __name__ == "__main__":
     
@@ -86,6 +86,6 @@ if __name__ == "__main__":
     picture = picture_from_theme(theme)
 
     if picture:
-        insert_picture(picture)
+        insert_picture(picture, theme)
     else:
         print("No picture found to insert.")
