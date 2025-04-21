@@ -6,19 +6,14 @@
                     "Mega monkey monday": {
                         "image-folder": "/images/mega-monkey"
                     }
-                },
-                {
-                    "Trolly Thursday": {
-                        "image-folder": "/images/fridge-cat"
-                    }
                 }
             ]
         },
         {
             "tuesday": [
                 {
-                    "Erratic tomfoolery Tuesday": {
-                        "image-folder": "/images/fridge-cat"
+                    "Tiny hat Tuesday": {
+                        "image-folder": "/images/tiny-hat"
                     }
                 }
             ]
