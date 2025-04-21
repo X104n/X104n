@@ -3,8 +3,8 @@
         {
             "monday": [
                 {
-                    "Mega monky monday": {
-                        "image-folder": "/images/mega-monky"
+                    "Mega monkey monday": {
+                        "image-folder": "/images/mega-monkey"
                     }
                 }
             ]
@@ -12,8 +12,7 @@
         {
             "tuesday": [
                 {
-                    "Fridge cat Friday": {
-                        "day": "Friday",
+                    "Erratic tomfoolery Tuesday": {
                         "image-folder": "/images/fridge-cat"
                     }
                 }
@@ -22,8 +21,7 @@
         {
             "wednesday": [
                 {
-                    "Fridge cat Friday": {
-                        "day": "Friday",
+                    "Waiting Wednesday": {
                         "image-folder": "/images/fridge-cat"
                     }
                 }
@@ -32,8 +30,7 @@
         {
             "thursday": [
                 {
-                    "Fridge cat Friday": {
-                        "day": "Friday",
+                    "Trolly Thursday": {
                         "image-folder": "/images/fridge-cat"
                     }
                 }
@@ -43,7 +40,6 @@
             "friday": [
                 {
                     "Fridge cat Friday": {
-                        "day": "Friday",
                         "image-folder": "/images/fridge-cat"
                     }
                 }
@@ -66,8 +62,7 @@
         {
             "sunday": [
                 {
-                    "Fridge cat Friday": {
-                        "day": "Friday",
+                    "Sardine Sunday": {
                         "image-folder": "/images/fridge-cat"
                     }
                 }
