@@ -3,6 +3,7 @@ import os
 import random
 import json
 import datetime
+import re
 
 def get_day():
     """Return the current day of the week."""
@@ -28,10 +29,53 @@ def get_themes_from_day(day):
 
 
 def picture_from_theme(theme):
-    return "a"
+    """Return a random image from the theme's image folder."""
+    # Extract the image folder path from the theme
+    theme_name = list(theme.keys())[0]
+    image_folder = theme[theme_name]['image-folder']
+    
+    # Remove leading slash if present
+    if image_folder.startswith('/'):
+        image_folder = image_folder[1:]
+    
+    # Get all images from the theme's image directory
+    image_extensions = ['.png', '.jpg', '.jpeg', '.gif', '.JPG', '.JPEG', '.PNG', '.GIF']
+    images = []
+    
+    if os.path.exists(image_folder):
+        for f in os.listdir(image_folder):
+            if any(f.lower().endswith(ext.lower()) for ext in image_extensions):
+                images.append(os.path.join(image_folder, f))
+    
+    if not images:
+        print(f"No images found in the {image_folder} directory!")
+        return None
+    
+    # Return a random image from the theme's folder
+    return random.choice(images)
 
 def insert_picture(picture):
-    return "b"
+    readme_path = 'README.md'
+    
+    
+    with open(readme_path, 'r') as file:
+        content = file.read()
+    pattern = r'!\[regex\]\([^)]+\)'
+    
+    picture_path = picture.replace('\\', '/')
+    
+    # Create the replacement - keeping the alt text "regex" but changing the image path
+    replacement = f'![regex]({picture_path})'
+    
+    # Replace only the matched pattern
+    updated_content = re.sub(pattern, replacement, content)
+    
+    # Write the updated content back to the README
+    with open(readme_path, 'w') as file:
+        file.write(updated_content)
+    
+    print(f"README updated with new image: {picture_path}")
+    return True
 
 if __name__ == "__main__":
     
@@ -39,8 +83,9 @@ if __name__ == "__main__":
 
     theme = random_theme(day)
 
-    print(f"Today's theme is: {theme}")
-
     picture = picture_from_theme(theme)
 
-    insert_picture(picture)
+    if picture:
+        insert_picture(picture)
+    else:
+        print("No picture found to insert.")
