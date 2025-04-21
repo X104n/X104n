@@ -3,7 +3,7 @@
         {
             "monday": [
                 {
-                    "Mega monkey monday": {
+                    "Mega monkey Monday": {
                         "image-folder": "/images/mega-monkey"
                     }
                 }
@@ -47,11 +47,6 @@
         },
         {
             "saturday": [
-                {
-                    "Big baller Saturday": {
-                        "image-folder": "/images/baller"
-                    }
-                },
                 {
                     "Sink cat Saturday": {
                         "image-folder": "/images/sink-cat"
