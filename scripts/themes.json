@@ -1,11 +1,77 @@
 {
-    "themes": {
-        "Fridge cat Friday" : {
-            "name": "Fridge cat Friday",
-            "day": "Friday",
-            "images" : [
-                "/images/fridge-cat/image1.jpg"
+    "days": [
+        {
+            "monday": [
+                {
+                    "Mega monky monday": {
+                        "image-folder": "/images/mega-monky"
+                    }
+                }
+            ]
+        },
+        {
+            "tuesday": [
+                {
+                    "Fridge cat Friday": {
+                        "day": "Friday",
+                        "image-folder": "/images/fridge-cat"
+                    }
+                }
+            ]
+        },
+        {
+            "wednesday": [
+                {
+                    "Fridge cat Friday": {
+                        "day": "Friday",
+                        "image-folder": "/images/fridge-cat"
+                    }
+                }
+            ]
+        },
+        {
+            "thursday": [
+                {
+                    "Fridge cat Friday": {
+                        "day": "Friday",
+                        "image-folder": "/images/fridge-cat"
+                    }
+                }
+            ]
+        },
+        {
+            "friday": [
+                {
+                    "Fridge cat Friday": {
+                        "day": "Friday",
+                        "image-folder": "/images/fridge-cat"
+                    }
+                }
+            ]
+        },
+        {
+            "saturday": [
+                {
+                    "Big baller Saturday": {
+                        "image-folder": "/images/baller"
+                    }
+                },
+                {
+                    "Sink cat Saturday": {
+                        "image-folder": "/images/sink-cat"
+                    }
+                }
+            ]
+        },
+        {
+            "sunday": [
+                {
+                    "Fridge cat Friday": {
+                        "day": "Friday",
+                        "image-folder": "/images/fridge-cat"
+                    }
+                }
             ]
         }
-    }
+    ]
 }
