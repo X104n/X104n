@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Wet fur Wednesday
-![regex](images/wet-fur/DSC_8242.jpg)
+### Todays theme: Utepils Thurday
+![regex](images/utepils/IMG_2195.jpg)
