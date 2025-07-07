@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Sunny sand Sunday
-![regex](images/sunny-sand/bogo.jpg)
+### Todays theme: Mega monkey Monday
+![regex](images/mega-monkey/image1.jpg)
