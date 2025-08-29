@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Utepils Thurday
-![regex](images/utepils/IMG_2195.jpg)
+### Todays theme: Fridge cat Friday
+![regex](images/fridge-cat/image1.jpg)
