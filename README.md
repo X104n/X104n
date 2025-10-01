@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Tiny hat Tuesday
-![regex](images/tiny-hat/rust.jpg)
+### Todays theme: Whimsical Smol Wednesday
+![regex](images/smol/GICQj_WXoAASIE8.jpg)
