@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Whimsical Smol Wednesday
-![regex](images/smol/GSAfurNa4AAubky.jpg)
+### Todays theme: Tidal trouble Thursday
+![regex](images/tidal-trouble/sdrgdsrg.jpg)
