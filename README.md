@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Wet fur Wednesday
-![regex](images/wet-fur/jydgjy.jpg)
+### Todays theme: Tidal trouble Thursday
+![regex](images/tidal-trouble/efeFEF.jpg)
