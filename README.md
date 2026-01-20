@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Mega monkey Monday
-![regex](images/mega-monkey/image1.jpg)
+### Todays theme: Tiny hat Tuesday
+![regex](images/tiny-hat/526473-ss-120906-chicks-hats-04.png)
