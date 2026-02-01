@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Sink cat Saturday
-![regex](images/sink-cat/image3.jpg)
+### Todays theme: Sunny sand Sunday
+![regex](images/sunny-sand/453691101_857761255736150_8327881643040780144_n.jpg)
