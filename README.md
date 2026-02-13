@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Tidal trouble Thursday
-![regex](images/tidal-trouble/sdrgdrg.jpg)
+### Todays theme: Fridge cat Friday
+![regex](images/fridge-cat/p3ok2.jpg)
