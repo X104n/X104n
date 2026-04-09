@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Whimsical Smol Wednesday
-![regex](images/smol/GICQj_WXoAASIE8.jpg)
+### Todays theme: Utepils Thurday
+![regex](images/utepils/1000_F_224617187_YnxOTZ6Qs3m2QDXHKVTIpAfblTe0T8Hs.jpg)
