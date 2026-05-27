@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Mega monkey Monday
-![regex](images/mega-monkey/image1.jpg)
+### Todays theme: Wet fur Wednesday
+![regex](images/wet-fur/7a97997e664de3e4545fea652ba3cb1c.jpg)
