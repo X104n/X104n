@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Tiny hat Tuesday
-![regex](images/tiny-hat/il_1080xN.3949868785_cw0v.png)
+### Todays theme: Wet fur Wednesday
+![regex](images/wet-fur/be68ebf54e3deb0592df310d68ec0ed6.jpg)
