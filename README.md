@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Fridge cat Friday
-![regex](images/fridge-cat/dwedq.jpg)
+### Todays theme: Sink cat Saturday
+![regex](images/sink-cat/image3.jpg)
