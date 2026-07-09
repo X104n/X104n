@@ -1,3 +1,3 @@
 ## New image every day!
-### Todays theme: Wet fur Wednesday
-![regex](images/wet-fur/my-friend-posted-this-on-his-whatsapp-status-and-i-thought-v0-o5l5vm82v1wa1.png)
+### Todays theme: Utepils Thurday
+![regex](images/utepils/1000_F_224617187_YnxOTZ6Qs3m2QDXHKVTIpAfblTe0T8Hs.jpg)
